@@ -71,9 +71,9 @@ class NewsController extends GetxController {
       country.value = '';
       category.value = '';
       baseApi =
-          "https://newsapi.org/v2/top-headlines?pageSize=10&page=$pageNum&q=$searchKey&apiKey=58b98b48d2c74d9c94dd5dc296ccf7b6";
+          "https://newsapi.org/v2/top-headlines?pageSize=10&page=$pageNum&q=$searchKey&apiKey=223c39d619d8432aae88cacbc37b1238";
     }
-    print(baseApi);
+
     getDataFromApi(baseApi);
   }
 
